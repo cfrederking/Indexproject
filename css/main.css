@@ -1,0 +1,42 @@
+main{
+	width:80%;
+	margin:auto;
+}
+.maincontainer{
+	margin-top:70px;
+}
+.content{
+	margin-top: 50px;
+}
+form{
+	margin-top: 40px;
+}
+.item{
+	margin:5px;
+	border:1px black solid;
+	height:200px;
+	width:200px;
+	border-radius: 100%;
+	padding:30px;
+	overflow: hidden;
+	transition:2s;
+	background:white;
+
+}
+.item:hover{
+	transform:scale(2);
+}
+
+.searchform{text-align: center;}
+.searchform input{ width:400px;}
+.searchform button{ width:80px;}
+.item p{margin:5px;}
+.item img{
+	width:180%;
+}
+h1{ 
+	font-size: 70px !important; 
+	font-family: helvetica !important;
+	color:blue ;
+
+}
